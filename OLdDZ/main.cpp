@@ -3,7 +3,7 @@
 int main()
 {
 	vector<Employee> work;
-
+    int todayYear = 2024;
 
     // First employee
     Employee first;
@@ -31,7 +31,7 @@ int main()
 
     // Fourth employee
     Employee fourth;
-    fourth.bornYear = 1990;
+    fourth.bornYear = 1948;
     fourth.education = "Middle";
     fourth.post = "Analyst";
     fourth.salary = 18000;
@@ -39,7 +39,7 @@ int main()
 
     // Fifth employee
     Employee fifth;
-    fifth.bornYear = 1998;
+    fifth.bornYear = 1963;
     fifth.education = "High";
     fifth.post = "Developer";
     fifth.salary = 20000;
@@ -51,7 +51,6 @@ int main()
     work.push_back(third);
     work.push_back(fourth);
     work.push_back(fifth);
-
 
 
 }
