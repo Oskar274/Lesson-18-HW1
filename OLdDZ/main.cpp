@@ -52,5 +52,12 @@ int main()
     work.push_back(fourth);
     work.push_back(fifth);
 
+    for (int i = 0; i < work.size(); i++)
+    {
+        if (todayYear - work[i].bornYear > 60)
+        {
+            work[i].show();
+        }
+    }
 
 }
